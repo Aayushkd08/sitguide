@@ -1,0 +1,1063 @@
+{
+ "departments": [
+  {
+   "id": "cse",
+   "name": "Computer Science & Engineering",
+   "short": "CSE",
+   "cat": "engineering",
+   "emoji": "💻",
+   "desc": "B.E., M.Tech and Ph.D. programmes in software engineering, AI, data science, networking and cyber security.",
+   "location": "Block A, North Wing",
+   "hod": "Dr N R Sunitha",
+   "students": 480,
+   "labs": "Programming Lab, AI Lab, Network Lab",
+   "founded": 1980,
+   "image": "/__l5e/assets-v1/b412355e-9e4f-47e4-a375-cc9dd4542123/cse-DONs2I_m.jpg",
+   "faculty": {
+    "name": "Dr N R Sunitha",
+    "contact": "99862 76851",
+    "email": "nrsunitha@sit.ac.in"
+   }
+  },
+  {
+   "id": "ise",
+   "name": "Information Science & Engineering",
+   "short": "ISE",
+   "cat": "engineering",
+   "emoji": "🌐",
+   "desc": "Information systems, database management, cloud computing and web technologies.",
+   "location": "Block B, 2nd Floor",
+   "hod": "Dr. R Aparna",
+   "students": 360,
+   "labs": "Database Lab, Web Lab, Cloud Lab",
+   "founded": 1998,
+   "image": "/__l5e/assets-v1/4a7db79e-36e0-4a51-ad72-e2f9922dc303/ise-DBRcWSKl.jpg",
+   "faculty": {
+    "name": "Dr. R Aparna",
+    "contact": "9480408455",
+    "email": "raparna@sit.ac.in"
+   }
+  },
+  {
+   "id": "aiml",
+   "name": "AI & Machine Learning",
+   "short": "AIML",
+   "cat": "engineering",
+   "emoji": "🤖",
+   "desc": "Artificial Intelligence, Machine Learning, Deep Learning and Data Science with state-of-the-art GPU labs.",
+   "location": "GJCB Block, 4th Floor",
+   "hod": "Prof. Dr. K. Manjunath",
+   "students": 120,
+   "labs": "GPU Lab, ML Research Lab",
+   "founded": 2020,
+   "image": "/__l5e/assets-v1/2be12671-142b-4f87-a7b1-1bd9f9af3555/aiml-Bm5Kyv1T.jpg"
+  },
+  {
+   "id": "aids",
+   "name": "AI & Data Science",
+   "short": "AIDS",
+   "cat": "engineering",
+   "emoji": "📈",
+   "desc": "Artificial Intelligence with Data Science specialisation — big data analytics, deep learning and data engineering.",
+   "location": "Block A, 3rd Floor",
+   "hod": "Prof. Dr. N. Bharath",
+   "students": 120,
+   "labs": "Data Science Lab, Analytics Lab",
+   "founded": 2021,
+   "image": "/__l5e/assets-v1/3bf5500a-0507-4895-bc58-3235f2104d6b/aids-C0xpufGx.jpg"
+  },
+  {
+   "id": "ece",
+   "name": "Electronics & Communication Engg.",
+   "short": "ECE",
+   "cat": "engineering",
+   "emoji": "📡",
+   "desc": "VLSI design, embedded systems, signal processing, wireless communications and IoT.",
+   "location": "Block C, Ground Floor",
+   "hod": "R Kumara Swamy",
+   "students": 420,
+   "labs": "VLSI Lab, Embedded Lab, Signal Lab",
+   "founded": 1976,
+   "image": "/__l5e/assets-v1/ca785c46-0069-4344-b6b7-12ef0b3b9104/ece-DxAkzomK.jpg",
+   "faculty": {
+    "name": "R Kumara Swamy",
+    "contact": "9480344624",
+    "email": "hyrkswamy@sit.ac.in"
+   }
+  },
+  {
+   "id": "ete",
+   "name": "Electronics & Telecom Engg.",
+   "short": "ETE",
+   "cat": "engineering",
+   "emoji": "📻",
+   "desc": "Telecommunications, optical fibre, satellite communication and RF engineering.",
+   "location": "Block C, 1st Floor",
+   "hod": "Dr. K. Viswanath",
+   "students": 120,
+   "labs": "Telecom Lab, RF Lab",
+   "founded": 1992,
+   "image": "/__l5e/assets-v1/7b9af6a7-0790-484c-b2fb-9405f9a270b4/ete-n6lzpuc6.jpg",
+   "faculty": {
+    "name": "Dr. K. Viswanath",
+    "contact": "9481346724",
+    "email": "vishwanath@sit.ac.in"
+   }
+  },
+  {
+   "id": "eie",
+   "name": "Electronics & Instrumentation Engg.",
+   "short": "EIE",
+   "cat": "engineering",
+   "emoji": "🎛️",
+   "desc": "Industrial instrumentation, process control, sensors and measurement systems.",
+   "location": "Block C, 2nd Floor",
+   "hod": "Dr. V Siddeswara Prasad",
+   "students": 120,
+   "labs": "Instrumentation Lab, Process Control Lab",
+   "founded": 1990,
+   "image": "/__l5e/assets-v1/5d53c189-c3b9-4bd7-bc56-456c1c0770af/eie-department.jpg",
+   "faculty": {
+    "name": "Dr. V Siddeswara Prasad",
+    "contact": "9480030333",
+    "email": "Vsiddesh@sit.ac.in, Vsiddesh@rediffmail.com"
+   }
+  },
+  {
+   "id": "mech",
+   "name": "Mechanical Engineering",
+   "short": "MECH",
+   "cat": "engineering",
+   "emoji": "⚙️",
+   "desc": "Design, manufacturing, thermal engineering, robotics and CAD/CAM.",
+   "location": "Workshop Block, South Wing",
+   "hod": "Dr. Virupaxi Auradi",
+   "students": 360,
+   "labs": "CAD Lab, Workshop, Thermal Lab",
+   "founded": 1963,
+   "image": "/__l5e/assets-v1/3435eaf3-436a-49c5-b537-86aea0ac4be1/mechanical-laboratory-complex.jpg",
+   "faculty": {
+    "name": "Dr. Virupaxi Auradi",
+    "contact": "9844386037",
+    "email": "vsauradi@gmail.com"
+   }
+  },
+  {
+   "id": "civil",
+   "name": "Civil Engineering",
+   "short": "CIVIL",
+   "cat": "engineering",
+   "emoji": "🏗️",
+   "desc": "Structural analysis, geotechnical, transportation, environmental and water resource engineering.",
+   "location": "Block D, Ground Floor",
+   "hod": "Prof. S.V. Dinesh",
+   "students": 240,
+   "labs": "Concrete Lab, Surveying Lab, GIS Lab",
+   "founded": 1966,
+   "image": "/__l5e/assets-v1/40cfd8e0-2ef2-4423-ac53-d042adc925c5/civil-department.jpg",
+   "faculty": {
+    "name": "Prof. S.V. Dinesh (HOD and Principal)",
+    "contact": "(91-0816) 2282696, 2214001, 9449852695",
+    "email": "dinesh@sit.ac.in"
+   }
+  },
+  {
+   "id": "eee",
+   "name": "Electrical & Electronics Engg.",
+   "short": "EEE",
+   "cat": "engineering",
+   "emoji": "⚡",
+   "desc": "Power systems, control systems, electrical machines, power electronics and smart grid.",
+   "location": "Block E, West Wing",
+   "hod": "Dr. Rashmi",
+   "students": 180,
+   "labs": "Power Lab, Control Lab, Drives Lab",
+   "founded": 1970,
+   "image": "/__l5e/assets-v1/40068dbc-b2c3-4727-8e92-a631518555b2/iem-eee-stbi.jpg",
+   "faculty": {
+    "name": "Dr. Rashmi",
+    "contact": "9740110576",
+    "email": "rash_mysore@sit.ac.in"
+   }
+  },
+  {
+   "id": "chemeng",
+   "name": "Chemical Engineering",
+   "short": "CHEMENG",
+   "cat": "engineering",
+   "emoji": "⚗️",
+   "desc": "Process engineering, petrochemicals, polymers, reaction engineering and unit operations.",
+   "location": "Block F, 1st Floor",
+   "hod": "Dr. Meyyappan N",
+   "students": 120,
+   "labs": "Process Lab, Unit Operations Lab",
+   "founded": 1985,
+   "image": "/__l5e/assets-v1/77153b90-946d-413a-be96-32c2b8d9d932/chemical-C28aa2MJ.jpg",
+   "faculty": {
+    "name": "Dr. Meyyappan N",
+    "contact": "9445644727",
+    "email": "meyyappan@sit.ac.in"
+   }
+  },
+  {
+   "id": "biotech",
+   "name": "Biotechnology",
+   "short": "BT",
+   "cat": "engineering",
+   "emoji": "🧬",
+   "desc": "Biological sciences with engineering — genetic engineering, bioprocess and bioinformatics.",
+   "location": "Block F, 2nd Floor",
+   "hod": "Dr. Gowrishankar B.S.",
+   "students": 120,
+   "labs": "Bioprocess Lab, Genetics Lab, Microbiology Lab",
+   "founded": 2003,
+   "image": "/__l5e/assets-v1/635a9290-926c-4df4-982f-92aafadbcf44/biotech-CZjZSqcd.jpg",
+   "faculty": {
+    "name": "Dr. Gowrishankar B.S.",
+    "contact": "98444 61940 / 0816-2214000 Extn. 4039",
+    "email": "bsgowri@sit.ac.in"
+   }
+  },
+  {
+   "id": "arch",
+   "name": "Architecture",
+   "short": "ARCH",
+   "cat": "engineering",
+   "emoji": "🏛️",
+   "desc": "B.Arch programme — design studios, urban planning, sustainable architecture and digital modelling.",
+   "location": "Architecture Block",
+   "hod": "Prof. Ar. K. Rao",
+   "students": 120,
+   "labs": "Design Studio, Model-making Workshop",
+   "founded": 2010,
+   "image": "/__l5e/assets-v1/960a3f65-866c-4787-ab20-5f33f03436eb/architecture-Ca_ky48V.jpg"
+  },
+  {
+   "id": "iem",
+   "name": "Industrial Engg. & Management",
+   "short": "IEM",
+   "cat": "engineering",
+   "emoji": "🏭",
+   "desc": "Operations research, supply chain, production planning and industrial systems engineering.",
+   "location": "Block G, 1st Floor",
+   "hod": "Dr. G V Prabhushankar",
+   "students": 120,
+   "labs": "Operations Lab, Simulation Lab",
+   "founded": 1995,
+   "image": "/__l5e/assets-v1/40068dbc-b2c3-4727-8e92-a631518555b2/iem-eee-stbi.jpg",
+   "faculty": {
+    "name": "Dr. G V Prabhushankar",
+    "contact": "+91 98454 30739",
+    "email": "gvpshankar@sit.ac.in"
+   }
+  },
+  {
+   "id": "nanotech",
+   "name": "Nanotechnology",
+   "short": "NANO",
+   "cat": "engineering",
+   "emoji": "🔬",
+   "desc": "Nano-materials, nano-electronics, characterisation and clean-room fabrication.",
+   "location": "Research Block, 3rd Floor",
+   "hod": "Prof. Dr. K. Iyer",
+   "students": 60,
+   "labs": "SEM/TEM Lab, Clean Room, Synthesis Lab",
+   "founded": 2012,
+   "image": "/__l5e/assets-v1/218b5f80-3d4a-4fef-a05f-273d23a9cbeb/nanotech-B1GR0vrt.jpg"
+  },
+  {
+   "id": "mba",
+   "name": "Master of Business Administration",
+   "short": "MBA",
+   "cat": "management",
+   "emoji": "📊",
+   "desc": "2-year MBA programme — finance, marketing, HR, operations and entrepreneurship.",
+   "location": "Management Block, 1st Floor",
+   "hod": "S. Panneerselvam",
+   "students": 120,
+   "labs": "Business Simulation Lab, Finance Lab",
+   "founded": 2001,
+   "image": "/__l5e/assets-v1/9a0844b0-c11d-458b-b821-db275d4ce9d8/mba-BOlOt5Yg.jpg",
+   "faculty": {
+    "name": "S. Panneerselvam",
+    "contact": "9480250369",
+    "email": "panneerselvam@sit.ac.in"
+   }
+  },
+  {
+   "id": "mca",
+   "name": "Master of Computer Applications",
+   "short": "MCA",
+   "cat": "management",
+   "emoji": "🖥️",
+   "desc": "3-year MCA programme — advanced software development, algorithms and enterprise computing.",
+   "location": "Management Block, 2nd Floor",
+   "hod": "Prof. Dr. C. Priya",
+   "students": 90,
+   "labs": "Software Dev Lab, Project Lab",
+   "founded": 1999,
+   "image": "/__l5e/assets-v1/cf00a223-4ba9-4e38-b5f5-188f16eb7015/mca-C-Fv2BIx.jpg"
+  },
+  {
+   "id": "chem",
+   "name": "Chemistry",
+   "short": "CHEM",
+   "cat": "science",
+   "emoji": "🧪",
+   "desc": "Engineering chemistry plus research in nano-materials, polymers and green chemistry.",
+   "location": "Science Block, Ground Floor",
+   "hod": "Dr. H. S. Lalithamba",
+   "students": 0,
+   "labs": "Chemistry Lab 1 & 2, Research Lab",
+   "founded": 1963,
+   "image": "/__l5e/assets-v1/6c7e4957-b227-4d33-af52-e0a3a48cebd3/dept-of-chemistry.jpg",
+   "faculty": {
+    "name": "Dr. H. S. Lalithamba",
+    "contact": "+91 9008305654",
+    "email": "hsl@sit.ac.in"
+   }
+  },
+  {
+   "id": "phy",
+   "name": "Physics",
+   "short": "PHY",
+   "cat": "science",
+   "emoji": "⚛️",
+   "desc": "Engineering physics courses and research in optics, semiconductors and condensed matter.",
+   "location": "Science Block, 1st Floor",
+   "hod": "Dr. Suresh Kumar H.M.",
+   "students": 0,
+   "labs": "Optics Lab, Electronics Lab",
+   "founded": 1963,
+   "image": "/__l5e/assets-v1/b6c69dad-a175-4fb1-8d98-1098e909fe18/dept-of-physics.jpg",
+   "faculty": {
+    "name": "Dr. Suresh Kumar H.M.",
+    "contact": "9483692842 / 9341243791 / 0816-2214065",
+    "email": "hms@sit.ac.in; sureshkumarhm@gmail.com"
+   }
+  },
+  {
+   "id": "math",
+   "name": "Mathematics",
+   "short": "MATH",
+   "cat": "science",
+   "emoji": "📐",
+   "desc": "Engineering mathematics and research in applied mathematics, cryptography and operations research.",
+   "location": "Science Block, 2nd Floor",
+   "hod": "Dr. P. Usha",
+   "students": 0,
+   "labs": "Computing Lab",
+   "founded": 1963,
+   "image": "/__l5e/assets-v1/68443058-ceee-4424-af2b-0fb925c4a641/math-DL20LBlY.jpg",
+   "faculty": {
+    "name": "Dr. P. Usha"
+   }
+  }
+ ],
+ "locations": [
+  {
+   "id": "admin",
+   "name": "Administrative Block (ADMIN)",
+   "icon": "🏛️",
+   "cat": "admin",
+   "desc": "Main administrative building with principal office, registrar and accounts.",
+   "dist": "Main Gate — 200m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Walk straight 100m",
+    "Turn left at the fountain",
+    "Admin block is on the right"
+   ]
+  },
+  {
+   "id": "gjcb",
+   "name": "GJCB Block",
+   "icon": "🏫",
+   "cat": "academic",
+   "desc": "First-year hub. Ground + 4 floors, 30+ classrooms.",
+   "dist": "Main Gate — 200m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Take first right after 100m",
+    "Walk straight 80m",
+    "Turn left — GJCB Block ahead"
+   ]
+  },
+  {
+   "id": "library",
+   "name": "Central Library (LIB)",
+   "icon": "📚",
+   "cat": "facility",
+   "desc": "Best technical library with 1 lakh+ books. Open 8 AM – 9 PM.",
+   "dist": "Main Gate — 180m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Take first right after 100m",
+    "Walk straight 50m",
+    "Turn left — Library ahead"
+   ]
+  },
+  {
+   "id": "canteen",
+   "name": "Main Canteen (CANT)",
+   "icon": "🍽️",
+   "cat": "facility",
+   "desc": "Main student canteen. Open 7:30 AM – 8 PM.",
+   "dist": "Main Gate — 180m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Take first left after 100m",
+    "Walk straight 50m",
+    "Turn right — dead end leads to canteen"
+   ]
+  },
+  {
+   "id": "cse",
+   "name": "CSE Department",
+   "icon": "💻",
+   "cat": "academic",
+   "desc": "Computer Science & Engineering department block.",
+   "dist": "Main Gate — 200m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Take first left after 100m",
+    "Walk straight 50m",
+    "Turn right — continue to CSE block"
+   ]
+  },
+  {
+   "id": "ise",
+   "name": "ISE Department",
+   "icon": "🌐",
+   "cat": "academic",
+   "desc": "Information Science & Engineering department.",
+   "dist": "Main Gate — 210m",
+   "time": "3 min walk",
+   "steps": [
+    "Enter main gate",
+    "Take first left after 100m",
+    "Walk straight 50m",
+    "Turn right — continue near CSE block"
+   ]
+  },
+  {
+   "id": "aiml",
+   "name": "AIML Department",
+   "icon": "🤖",
+   "cat": "academic",
+   "desc": "AI & Machine Learning — GJCB Block, 1st floor north wing.",
+   "dist": "GJCB Block",
+   "time": "1 min walk",
+   "steps": [
+    "Enter GJCB Block",
+    "Go to 1st floor",
+    "North wing classrooms"
+   ]
+  },
+  {
+   "id": "ete",
+   "name": "ETE Department",
+   "icon": "📻",
+   "cat": "academic",
+   "desc": "Electronics & Telecommunication Engineering.",
+   "dist": "Block C",
+   "time": "1 min walk",
+   "steps": [
+    "From ECE area",
+    "Enter Block C staircase",
+    "Go to 1st floor",
+    "Turn left to ETE section"
+   ]
+  },
+  {
+   "id": "eee",
+   "name": "EEE Department",
+   "icon": "⚡",
+   "cat": "academic",
+   "desc": "Electrical & Electronics Engineering — Block E, West Wing.",
+   "dist": "Main Gate — 250m",
+   "time": "4 min walk",
+   "steps": [
+    "Walk straight from main gate",
+    "Pass admin block",
+    "Turn left towards Block E",
+    "West wing"
+   ]
+  },
+  {
+   "id": "mba",
+   "name": "MBA Department",
+   "icon": "📊",
+   "cat": "academic",
+   "desc": "Master of Business Administration — Management Block, 1st floor.",
+   "dist": "Main Gate — 30m",
+   "time": "1 min walk",
+   "steps": [
+    "From main gate walk 20m",
+    "Take left",
+    "Reach management block",
+    "1st floor"
+   ]
+  },
+  {
+   "id": "mca",
+   "name": "MCA Department",
+   "icon": "🖥️",
+   "cat": "academic",
+   "desc": "Master of Computer Applications — Management Block, 2nd floor.",
+   "dist": "Management Block",
+   "time": "1 min walk",
+   "steps": [
+    "From MBA floor",
+    "Use staircase",
+    "Go one floor up",
+    "North side classrooms"
+   ]
+  },
+  {
+   "id": "chem",
+   "name": "Chemistry Department (CHEM)",
+   "icon": "🧪",
+   "cat": "academic",
+   "desc": "Chemistry department — behind administrative block.",
+   "dist": "Admin Block — 50m",
+   "time": "1 min walk",
+   "steps": [
+    "Behind Administrative Block"
+   ]
+  },
+  {
+   "id": "phy",
+   "name": "Physics Department (PHY)",
+   "icon": "⚛️",
+   "cat": "academic",
+   "desc": "Physics department — science block, 1st floor.",
+   "dist": "Admin Block — 60m",
+   "time": "1 min walk",
+   "steps": [
+    "Behind Administrative Block",
+    "1st floor science block"
+   ]
+  },
+  {
+   "id": "math",
+   "name": "Mathematics Department (MATH)",
+   "icon": "📐",
+   "cat": "academic",
+   "desc": "Mathematics department — Architecture building.",
+   "dist": "Architecture Block",
+   "time": "2 min walk",
+   "steps": [
+    "Architecture building",
+    "2nd and 3rd floor"
+   ]
+  },
+  {
+   "id": "hostel_boys",
+   "name": "Boys' Hostel (BH)",
+   "icon": "🏠",
+   "cat": "hostel",
+   "desc": "Boys hostel blocks with 2000+ beds.",
+   "dist": "Main Gate — 250m",
+   "time": "4 min walk",
+   "steps": [
+    "Enter main gate",
+    "First left after 100m",
+    "Turn right after 50m",
+    "Take left to boys hostel blocks"
+   ]
+  },
+  {
+   "id": "hostel_girls",
+   "name": "Girls' Hostel (GH)",
+   "icon": "🏡",
+   "cat": "hostel",
+   "desc": "Girls hostel blocks with enhanced security.",
+   "dist": "Main Gate — 250m",
+   "time": "4 min walk",
+   "steps": [
+    "Enter main gate",
+    "First left after 100m",
+    "Turn right after 50m",
+    "Dead end leads to girls hostel"
+   ]
+  },
+  {
+   "id": "sports",
+   "name": "Sports Ground & Gym (SPORTS)",
+   "icon": "⚽",
+   "cat": "facility",
+   "desc": "Football, cricket, basketball, gym, volleyball.",
+   "dist": "Admin Block — 300m",
+   "time": "5 min walk",
+   "steps": [
+    "Walk straight from admin block",
+    "Pass academic blocks",
+    "Sports complex at rear side"
+   ]
+  },
+  {
+   "id": "medical",
+   "name": "Medical Centre (MED)",
+   "icon": "🏥",
+   "cat": "facility",
+   "desc": "Doctor on duty Mon–Sat 9 AM – 5 PM. Ambulance available.",
+   "dist": "Main Gate — 280m",
+   "time": "4 min walk",
+   "steps": [
+    "Enter main gate",
+    "First left after 100m",
+    "Turn right after 50m",
+    "Walk 80m",
+    "Left to medical centre"
+   ]
+  },
+  {
+   "id": "bank",
+   "name": "Karnataka ATM & Bank (BANK)",
+   "icon": "🏦",
+   "cat": "facility",
+   "desc": "Karnataka Bank branch & ATM. ATM open 24×7.",
+   "dist": "Main Gate — 150m",
+   "time": "2 min walk",
+   "steps": [
+    "Enter main gate",
+    "First right after 100m",
+    "Turn left after 20m",
+    "ATM and bank behind gate"
+   ]
+  }
+ ],
+ "clubs": [
+  {
+   "name": "IEEE Student Branch",
+   "cat": "technical",
+   "emoji": "⚡",
+   "color": "#e3f0ff",
+   "desc": "Workshops, technical talks, paper presentations and competitions in electronics and computing.",
+   "contact": "ieee.sit@sit.ac.in"
+  },
+  {
+   "name": "CSI Student Chapter",
+   "cat": "technical",
+   "emoji": "💻",
+   "color": "#e3f0ff",
+   "desc": "Software development, coding contests, hackathons and IT industry interactions.",
+   "contact": "csi.sit@sit.ac.in"
+  },
+  {
+   "name": "ACM Student Chapter",
+   "cat": "technical",
+   "emoji": "🖥️",
+   "color": "#e3f0ff",
+   "desc": "Competitive programming, algorithm workshops and research discussions.",
+   "contact": "acm.sit@sit.ac.in"
+  },
+  {
+   "name": "Robotics Club",
+   "cat": "technical",
+   "emoji": "🤖",
+   "color": "#e3f0ff",
+   "desc": "Robots, national competitions, automation, IoT and embedded projects.",
+   "contact": "robotics@sit.ac.in"
+  },
+  {
+   "name": "Culturals Committee",
+   "cat": "cultural",
+   "emoji": "🎭",
+   "color": "#fff3cd",
+   "desc": "Annual cultural fest SPANDAN — music, dance, drama, art and literary events.",
+   "contact": "culturals@sit.ac.in"
+  },
+  {
+   "name": "Music Club",
+   "cat": "cultural",
+   "emoji": "🎵",
+   "color": "#fff3cd",
+   "desc": "Classical and western music, jam sessions, band performances.",
+   "contact": "music@sit.ac.in"
+  },
+  {
+   "name": "Fine Arts Club",
+   "cat": "cultural",
+   "emoji": "🎨",
+   "color": "#fff3cd",
+   "desc": "Painting, sculpture, photography and digital art.",
+   "contact": "arts@sit.ac.in"
+  },
+  {
+   "name": "Drama & Theatre Club",
+   "cat": "cultural",
+   "emoji": "🎬",
+   "color": "#fff3cd",
+   "desc": "Street plays, one-act plays, state-level competitions.",
+   "contact": "drama@sit.ac.in"
+  },
+  {
+   "name": "Innovation & Startup Cell",
+   "cat": "innovation",
+   "emoji": "🚀",
+   "color": "#d4edda",
+   "desc": "SIT incubation centre — mentorship, funding guidance and prototype development.",
+   "contact": "startup@sit.ac.in"
+  },
+  {
+   "name": "KSCST Project Club",
+   "cat": "innovation",
+   "emoji": "🔬",
+   "color": "#d4edda",
+   "desc": "Government-funded research projects for undergrads.",
+   "contact": "kscst@sit.ac.in"
+  },
+  {
+   "name": "NSS Unit",
+   "cat": "innovation",
+   "emoji": "🌱",
+   "color": "#d4edda",
+   "desc": "Community service, blood donation, tree plantation, rural camps.",
+   "contact": "nss@sit.ac.in"
+  },
+  {
+   "name": "Sports Board",
+   "cat": "sports",
+   "emoji": "⚽",
+   "color": "#f8d7da",
+   "desc": "Cricket, football, basketball, volleyball, athletics, chess.",
+   "contact": "sports@sit.ac.in"
+  },
+  {
+   "name": "Cycling Club",
+   "cat": "sports",
+   "emoji": "🚴",
+   "color": "#f8d7da",
+   "desc": "Long-distance cycling, campus tours and fitness rides.",
+   "contact": "cycling@sit.ac.in"
+  }
+ ],
+ "facilities": [
+  {
+   "name": "Central Library",
+   "icon": "fas fa-book",
+   "color": "#1a3c6e",
+   "loc": "Near Admin Block",
+   "desc": "1 lakh+ books, e-journals, digital library, reading halls. Open 8 AM – 9 PM.",
+   "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80"
+  },
+  {
+   "name": "Main Canteen",
+   "icon": "fas fa-utensils",
+   "color": "#2a5298",
+   "loc": "Central Campus",
+   "desc": "Hygienic canteen serving breakfast, lunch, snacks and dinner.",
+   "image": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=800&q=80"
+  },
+  {
+   "name": "LBS Boys' Hostel",
+   "icon": "fas fa-home",
+   "color": "#1a3c6e",
+   "loc": "South-West Campus",
+   "desc": "Lal Bahadur Shastri Block — boys' hostel with WiFi, hot water, laundry and 24-hour security.",
+   "image": "/__l5e/assets-v1/3d7f5db2-d5c3-4553-801d-7df5199256aa/lbs-boys-hostel.jpg"
+  },
+  {
+   "name": "APB Boys' Hostel",
+   "icon": "fas fa-home",
+   "color": "#2a5298",
+   "loc": "South-West Campus",
+   "desc": "Allama Prabhu Block — spacious boys' hostel with mess and recreation facilities.",
+   "image": "/__l5e/assets-v1/dd74a607-183c-49a9-9a8c-673fbbf039d4/apb-boys-hostel.jpg"
+  },
+  {
+   "name": "BVB Boys' Hostel",
+   "icon": "fas fa-home",
+   "color": "#1a3c6e",
+   "loc": "South-West Campus",
+   "desc": "Sri Basaveshwara Block — modern boys' hostel with innovation & training centre.",
+   "image": "/__l5e/assets-v1/20fc5393-0480-4caa-8021-6b84e1182629/bvb-boys-hostel.jpg"
+  },
+  {
+   "name": "Girls' Hostels",
+   "icon": "fas fa-home",
+   "color": "#2a5298",
+   "loc": "South-West Campus",
+   "desc": "Dedicated hostel blocks for girl students with enhanced security and amenities.",
+   "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80"
+  },
+  {
+   "name": "Sports Complex",
+   "icon": "fas fa-futbol",
+   "color": "#1a3c6e",
+   "loc": "South Campus",
+   "desc": "Football, cricket, basketball, volleyball, badminton, gym and athletics tracks.",
+   "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80"
+  },
+  {
+   "name": "Medical Centre",
+   "icon": "fas fa-hospital",
+   "color": "#2a5298",
+   "loc": "Near Admin Block",
+   "desc": "Qualified doctor, nurse, first-aid, emergency care. Ambulance on campus.",
+   "image": "/__l5e/assets-v1/0c4468ad-4b23-4006-9273-87a82cb029cc/health-centre.jpg"
+  },
+  {
+   "name": "Workshop",
+   "icon": "fas fa-tools",
+   "color": "#1a3c6e",
+   "loc": "South Wing",
+   "desc": "Lathes, welding, carpentry and fabrication equipment.",
+   "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+  },
+  {
+   "name": "Computer Centre",
+   "icon": "fas fa-desktop",
+   "color": "#2a5298",
+   "loc": "Block A",
+   "desc": "300+ high-performance computers, 24-hour internet, licensed software.",
+   "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+  },
+  {
+   "name": "Auditorium",
+   "icon": "fas fa-microphone",
+   "color": "#1a3c6e",
+   "loc": "Central Campus",
+   "desc": "1500-seat auditorium for convocations, cultural events and seminars.",
+   "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=800&q=80"
+  },
+  {
+   "name": "SBI Bank & ATM",
+   "icon": "fas fa-landmark",
+   "color": "#2a5298",
+   "loc": "Near GJCB Block",
+   "desc": "SBI branch with ATM available 24×7.",
+   "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=800&q=80"
+  },
+  {
+   "name": "Post Office & Co-op Store",
+   "icon": "fas fa-envelope",
+   "color": "#1a3c6e",
+   "loc": "Near Main Gate",
+   "desc": "Campus India Post office and SIT Consumers Co-operative Society for postal services, stationery and daily essentials.",
+   "image": "/__l5e/assets-v1/e38001b3-63ae-40a9-a66d-d52af31920b3/post-office.jpg"
+  }
+ ],
+ "floors": {
+  "f1": {
+   "name": "First Floor",
+   "icon": "1️⃣",
+   "desc": "Dr. R. Radhakrishnan Seminar Hall, Civil classrooms, CSE B-section and AIML H-section.",
+   "rooms": [
+    {
+     "num": "Seminar Hall",
+     "name": "Dr. R. Radhakrishnan Seminar Hall",
+     "type": "Seminar Hall"
+    },
+    {
+     "num": "101",
+     "name": "AIML H-Section",
+     "type": "Classroom — AIML"
+    },
+    {
+     "num": "102",
+     "name": "CSE B-Section",
+     "type": "Classroom — CSE"
+    },
+    {
+     "num": "103",
+     "name": "Civil Classroom",
+     "type": "Classroom — Civil"
+    },
+    {
+     "num": "104",
+     "name": "Civil Classroom",
+     "type": "Classroom — Civil"
+    },
+    {
+     "num": "105",
+     "name": "Civil Classroom",
+     "type": "Classroom — Civil"
+    },
+    {
+     "num": "106",
+     "name": "Civil Classroom",
+     "type": "Classroom — Civil"
+    },
+    {
+     "num": "107",
+     "name": "Civil Classroom",
+     "type": "Classroom — Civil"
+    }
+   ],
+   "tags": [
+    "🚻 Restrooms",
+    "🪜 Staircase A",
+    "🪜 Staircase B",
+    "📶 WiFi Zone",
+    "🎤 Seminar Hall"
+   ]
+  },
+  "f2": {
+   "name": "Second Floor",
+   "icon": "2️⃣",
+   "desc": "CSE C & D sections, Civil drawing hall and IT classrooms.",
+   "rooms": [
+    {
+     "num": "201",
+     "name": "IT Classroom",
+     "type": "Classroom — IT"
+    },
+    {
+     "num": "202",
+     "name": "IT Classroom",
+     "type": "Classroom — IT"
+    },
+    {
+     "num": "205",
+     "name": "IT Classroom",
+     "type": "Classroom — IT"
+    },
+    {
+     "num": "206",
+     "name": "Civil Drawing Hall",
+     "type": "Drawing Hall — Civil"
+    },
+    {
+     "num": "207",
+     "name": "CSE C-Section",
+     "type": "Classroom — CSE"
+    },
+    {
+     "num": "208",
+     "name": "CSE D-Section",
+     "type": "Classroom — CSE"
+    }
+   ],
+   "tags": [
+    "🚻 Restrooms",
+    "🪜 Staircase A",
+    "🪜 Staircase B",
+    "📶 WiFi Zone",
+    "📐 Drawing Hall"
+   ]
+  },
+  "f3": {
+   "name": "Third Floor",
+   "icon": "3️⃣",
+   "desc": "E&T classrooms, AI&DS G-section and PG / Research lab.",
+   "rooms": [
+    {
+     "num": "301",
+     "name": "AI&DS G-Section",
+     "type": "Classroom — AI&DS"
+    },
+    {
+     "num": "302",
+     "name": "E&T Classroom",
+     "type": "Classroom — E&T"
+    },
+    {
+     "num": "303",
+     "name": "E&T Classroom",
+     "type": "Classroom — E&T"
+    },
+    {
+     "num": "305",
+     "name": "E&T Classroom",
+     "type": "Classroom — E&T"
+    },
+    {
+     "num": "307",
+     "name": "E&T Classroom",
+     "type": "Classroom — E&T"
+    },
+    {
+     "num": "308",
+     "name": "E&T Classroom",
+     "type": "Classroom — E&T"
+    },
+    {
+     "num": "PG Lab",
+     "name": "PG and Research Lab",
+     "type": "Research Lab"
+    }
+   ],
+   "tags": [
+    "🚻 Restrooms",
+    "🪜 Staircase A",
+    "🔬 Research Lab",
+    "📶 WiFi Zone"
+   ]
+  },
+  "f4": {
+   "name": "Fourth Floor",
+   "icon": "4️⃣",
+   "desc": "Mechanical and EEE classrooms with the SIT–CypherTek Joint Venture Innovation Lab.",
+   "rooms": [
+    {
+     "num": "401",
+     "name": "EEE Classroom",
+     "type": "Classroom — EEE"
+    },
+    {
+     "num": "402",
+     "name": "EEE Classroom",
+     "type": "Classroom — EEE"
+    },
+    {
+     "num": "403",
+     "name": "EEE Classroom",
+     "type": "Classroom — EEE"
+    },
+    {
+     "num": "404",
+     "name": "EEE Classroom",
+     "type": "Classroom — EEE"
+    },
+    {
+     "num": "405",
+     "name": "EEE Classroom",
+     "type": "Classroom — EEE"
+    },
+    {
+     "num": "407",
+     "name": "Mechanical Classroom",
+     "type": "Classroom — Mech"
+    },
+    {
+     "num": "408",
+     "name": "Mechanical Classroom",
+     "type": "Classroom — Mech"
+    },
+    {
+     "num": "Innovation Lab",
+     "name": "SIT & CypherTek Joint Venture Innovation Lab",
+     "type": "Innovation Lab"
+    }
+   ],
+   "tags": [
+    "🚻 Restrooms",
+    "🪜 Staircase A",
+    "🚀 Innovation Lab",
+    "📶 WiFi Zone"
+   ]
+  }
+ },
+ "tours": [
+  {
+   "id": "west",
+   "url": "/__l5e/assets-v1/eea94ed8-4f9e-414a-a2cd-1bfe3d9956ca/west.mp4",
+   "title": "West Walkthrough of SIT",
+   "desc": "Covers: Admin Block, Library, Coffee Shop, Mechanical Dept, Circuit Dept, and GJCB."
+  },
+  {
+   "id": "east",
+   "url": "/__l5e/assets-v1/b9e35a1d-9e03-40d7-806a-abdbf2bd487c/east.mp4",
+   "title": "East Walkthrough of SIT",
+   "desc": "Covers: Admin Block, Architecture Block, Health Centre, Boys & Girls Hostels, CSE Block, Chemical Dept, Civil Dept, Physics Dept, and Main Canteen."
+  }
+ ]
+}
