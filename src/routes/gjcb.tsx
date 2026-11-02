@@ -3,7 +3,7 @@ import { floors, GJCB_OVERVIEW } from "@/data/campus";
 import { PageHead } from "@/components/Shell";
 
 export const Route = createFileRoute("/gjcb")({
-  validateSearch: (s: Record<string, unknown>) => ({ floor: typeof s.floor === "string" ? s.floor : undefined }),
+  validateSearch: (s: Record<string, unknown>) => ({ floor: typeof s["floor"] === "string" ? s["floor"] : undefined }),
   head: () => ({
     meta: [
       { title: "GJCB Block Floor Guide — SIT Campus Field Guide" },
@@ -18,8 +18,8 @@ export const Route = createFileRoute("/gjcb")({
 function Gjcb() {
   const { floor } = Route.useSearch();
   const keys = Object.keys(floors);
-  const active = floor && floors[floor] ? floor : keys[0];
-  const f = floors[active];
+  const active = floor && floors[floor] ? floor : keys[0]!;
+  const f = floors[active]!;
   return (
     <div>
       <PageHead eyebrow="First Year Hub" title="GJCB Block" sub="Detailed floor-by-floor guide — find your classroom instantly." />
@@ -40,7 +40,7 @@ function Gjcb() {
               search={{ floor: k }}
               className={"flex-1 rounded-lg border px-4 py-3 text-sm font-semibold transition-colors md:flex-none " + (k === active ? "border-primary bg-primary text-primary-foreground" : "bg-card hover:border-primary")}
             >
-              {floors[k].name}
+              {floors[k]!.name}
             </Link>
           ))}
           <p className="hidden text-xs text-muted-foreground md:block">Floors stacked as in the building ↑</p>

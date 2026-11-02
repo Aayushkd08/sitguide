@@ -6,7 +6,7 @@ import { PageHead } from "@/components/Shell";
 import { LocationDetail } from "@/components/LocationCard";
 
 export const Route = createFileRoute("/map")({
-  validateSearch: (s: Record<string, unknown>) => ({ loc: typeof s.loc === "string" ? s.loc : undefined }),
+  validateSearch: (s: Record<string, unknown>) => ({ loc: typeof s["loc"] === "string" ? s["loc"] : undefined }),
   head: () => ({
     meta: [
       { title: "Campus Map & Directions — SIT Campus Field Guide" },

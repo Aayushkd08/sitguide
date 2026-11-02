@@ -16,7 +16,7 @@ export const Route = createFileRoute("/tour")({
 });
 
 function Tour() {
-  const [id, setId] = useState(tours[0].id);
+  const [id, setId] = useState(tours[0]!.id);
   const t = tours.find((x) => x.id === id)!;
   return (
     <div>

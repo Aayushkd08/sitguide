@@ -49,7 +49,7 @@ export function answer(input: string): Reply {
   const fm = t.match(/\b(ground|1st|2nd|3rd|4th|first|second|third|fourth)\b.*floor|floor\s*(\d)/);
   if (fm) {
     const map: Record<string, string> = { ground: "gf", first: "f1", "1st": "f1", second: "f2", "2nd": "f2", third: "f3", "3rd": "f3", fourth: "f4", "4th": "f4" };
-    const f = floors[map[fm[1]] || "f" + fm[2]];
+    const f = floors[map[fm[1] ?? ""] || "f" + fm[2]];
     if (f) return { type: "list", title: `${f.name} — GJCB Block`, items: [f.desc, "Rooms: " + f.rooms.map((r) => r.num).join(", ")] };
   }
 
