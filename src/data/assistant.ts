@@ -39,7 +39,7 @@ export function answer(input: string): Reply {
 
   const roomM = t.match(/\b([a-z]{1,3})[-\s]?(\d{2,3})\b/i) || t.match(/\broom\s*(\d{3})\b/);
   if (roomM) {
-    const code = (roomM.length > 2 && roomM[2] ? `${roomM[1]}-${roomM[2]}` : roomM[1]).toUpperCase();
+    const code = (roomM[2] ? `${roomM[1]}-${roomM[2]}` : (roomM[1] ?? "")).toUpperCase();
     for (const f of Object.values(floors)) {
       const r = f.rooms.find((x) => x.num.toUpperCase() === code);
       if (r) return { type: "text", text: `Room ${r.num} — ${f.name} (GJCB Block). Type: ${r.type} · Name: ${r.name}` };

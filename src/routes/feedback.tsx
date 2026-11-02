@@ -21,11 +21,11 @@ function Feedback() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [msg, setMsg] = useState("");
-  const [err, setErr] = useState<Record<string, string>>({});
+  const [err, setErr] = useState<{ name?: string; phone?: string; msg?: string }>({});
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
-    const er: Record<string, string> = {};
+    const er: { name?: string; phone?: string; msg?: string } = {};
     if (name.trim().length < 2) er.name = "Please enter your name";
     if (!isValidPhone(phone)) er.phone = "Enter a valid 10-digit mobile number";
     if (msg.trim().length < 3) er.msg = "Please enter at least a few words of feedback";
