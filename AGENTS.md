@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Campus content lives in src/data/campus.json (extracted from the reference guide) with types/search in src/data/campus.ts; the assistant is rule-based in src/data/assistant.ts — edit data there, not in pages.

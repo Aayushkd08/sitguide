@@ -10,33 +10,154 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AssistantRouteImport } from './routes/assistant'
+import { Route as ClubsRouteImport } from './routes/clubs'
+import { Route as FacilitiesRouteImport } from './routes/facilities'
+import { Route as FeedbackRouteImport } from './routes/feedback'
+import { Route as GjcbRouteImport } from './routes/gjcb'
+import { Route as MapRouteImport } from './routes/map'
+import { Route as TourRouteImport } from './routes/tour'
+import { Route as DepartmentsIndexRouteImport } from './routes/departments.index'
+import { Route as DepartmentsIdRouteImport } from './routes/departments.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AssistantRoute = AssistantRouteImport.update({
+  id: '/assistant',
+  path: '/assistant',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ClubsRoute = ClubsRouteImport.update({
+  id: '/clubs',
+  path: '/clubs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FacilitiesRoute = FacilitiesRouteImport.update({
+  id: '/facilities',
+  path: '/facilities',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FeedbackRoute = FeedbackRouteImport.update({
+  id: '/feedback',
+  path: '/feedback',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GjcbRoute = GjcbRouteImport.update({
+  id: '/gjcb',
+  path: '/gjcb',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MapRoute = MapRouteImport.update({
+  id: '/map',
+  path: '/map',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TourRoute = TourRouteImport.update({
+  id: '/tour',
+  path: '/tour',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DepartmentsIndexRoute = DepartmentsIndexRouteImport.update({
+  id: '/departments/',
+  path: '/departments/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DepartmentsIdRoute = DepartmentsIdRouteImport.update({
+  id: '/departments/$id',
+  path: '/departments/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/clubs': typeof ClubsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/feedback': typeof FeedbackRoute
+  '/gjcb': typeof GjcbRoute
+  '/map': typeof MapRoute
+  '/tour': typeof TourRoute
+  '/departments/$id': typeof DepartmentsIdRoute
+  '/departments/': typeof DepartmentsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/clubs': typeof ClubsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/feedback': typeof FeedbackRoute
+  '/gjcb': typeof GjcbRoute
+  '/map': typeof MapRoute
+  '/tour': typeof TourRoute
+  '/departments/$id': typeof DepartmentsIdRoute
+  '/departments': typeof DepartmentsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/clubs': typeof ClubsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/feedback': typeof FeedbackRoute
+  '/gjcb': typeof GjcbRoute
+  '/map': typeof MapRoute
+  '/tour': typeof TourRoute
+  '/departments/$id': typeof DepartmentsIdRoute
+  '/departments/': typeof DepartmentsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/assistant'
+    | '/clubs'
+    | '/facilities'
+    | '/feedback'
+    | '/gjcb'
+    | '/map'
+    | '/tour'
+    | '/departments/$id'
+    | '/departments/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/assistant'
+    | '/clubs'
+    | '/facilities'
+    | '/feedback'
+    | '/gjcb'
+    | '/map'
+    | '/tour'
+    | '/departments/$id'
+    | '/departments'
+  id:
+    | '__root__'
+    | '/'
+    | '/assistant'
+    | '/clubs'
+    | '/facilities'
+    | '/feedback'
+    | '/gjcb'
+    | '/map'
+    | '/tour'
+    | '/departments/$id'
+    | '/departments/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AssistantRoute: typeof AssistantRoute
+  ClubsRoute: typeof ClubsRoute
+  FacilitiesRoute: typeof FacilitiesRoute
+  FeedbackRoute: typeof FeedbackRoute
+  GjcbRoute: typeof GjcbRoute
+  MapRoute: typeof MapRoute
+  TourRoute: typeof TourRoute
+  DepartmentsIdRoute: typeof DepartmentsIdRoute
+  DepartmentsIndexRoute: typeof DepartmentsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +169,83 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/assistant': {
+      id: '/assistant'
+      path: '/assistant'
+      fullPath: '/assistant'
+      preLoaderRoute: typeof AssistantRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/clubs': {
+      id: '/clubs'
+      path: '/clubs'
+      fullPath: '/clubs'
+      preLoaderRoute: typeof ClubsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/facilities': {
+      id: '/facilities'
+      path: '/facilities'
+      fullPath: '/facilities'
+      preLoaderRoute: typeof FacilitiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/feedback': {
+      id: '/feedback'
+      path: '/feedback'
+      fullPath: '/feedback'
+      preLoaderRoute: typeof FeedbackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gjcb': {
+      id: '/gjcb'
+      path: '/gjcb'
+      fullPath: '/gjcb'
+      preLoaderRoute: typeof GjcbRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/map': {
+      id: '/map'
+      path: '/map'
+      fullPath: '/map'
+      preLoaderRoute: typeof MapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tour': {
+      id: '/tour'
+      path: '/tour'
+      fullPath: '/tour'
+      preLoaderRoute: typeof TourRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/departments/': {
+      id: '/departments/'
+      path: '/departments'
+      fullPath: '/departments/'
+      preLoaderRoute: typeof DepartmentsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/departments/$id': {
+      id: '/departments/$id'
+      path: '/departments/$id'
+      fullPath: '/departments/$id'
+      preLoaderRoute: typeof DepartmentsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AssistantRoute: AssistantRoute,
+  ClubsRoute: ClubsRoute,
+  FacilitiesRoute: FacilitiesRoute,
+  FeedbackRoute: FeedbackRoute,
+  GjcbRoute: GjcbRoute,
+  MapRoute: MapRoute,
+  TourRoute: TourRoute,
+  DepartmentsIdRoute: DepartmentsIdRoute,
+  DepartmentsIndexRoute: DepartmentsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
